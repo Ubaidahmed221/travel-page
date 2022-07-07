@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agncy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script src="jquery-3.6.0.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+<!--  
+
+
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Travel <span>.</span></a>
+        <nav class="navbar">
+            <ul>
+                <li><a data-scroll="home"  href="#" class="active">home</a></li>
+                <li><a data-scroll="feature" href="#">Feature</a></li>
+                <li><a data-scroll="About" href="#">About</a></li>
+                <li><a data-scroll="Gellary" href="#">Gellary</a></li>
+               
+                <li><a data-scroll="contact" href="#">contact</a></li>
+            </ul>
+        </nav>
+        <div class="fas fa-bars"></div>
+    </header>
+
+    <section class="home" id="">
+        <div class="video">
+            <video src="video.mp4.mp4" loop muted autoplay></video>
+          
+        </div>
+        <div class="container-fluid">
+
+            <div class="row ">
+                <div class="content col-md-6 col-sm-12 col-lg-6">  
+                    <h2 id="head" >Explore New  Places, <br>Adventure awaits.</h2>
+                    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, unde. Id earum <br> veritatis sint ratione dolor  sit amet, dolor sit amet.</p>
+                </div>
+
+                <div class="form-container col-md-6 col-lg-6 col-sm-12"  id="place">
+                    <form action="" >
+                        <h3>Search Your Destination</h3>
+                        <span>Location</span>
+                        <input type="text" placeholder="place your went to place">
+                        
+                        <span>Guest Members</span>
+                        <input type="number" placeholder="number of people">
+                        
+                        <span>Arrival</span>
+                        <input type="date" >
+                        
+                        <span>Leaving</span>
+                        <input type="date" >
+                        
+                        <input type="submit" value="search">    
+                    </form>
+                </div>
+                </div>
+            </div>
+
+    </section>
+
+    <section class="feature">
+        <h2 class="heading" id="h6"> <span>F</span>eatured <span>L</span>ocations</h2>
+        <div class="card-container">
+            <!-- <div class="row"> -->
+
+          
+            <div class="card ">
+                <span class="Discount">-35%</span>
+                <img src="images/card1.jpg" alt="card image">
+                <div class="content">
+                    <h4 class="tittle" style="text-align: center; margin-left: 20px;"> Murree</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, expedita esse earum quibusdam facere dicta repellat corrupti quas corporis nihil.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="https://en.wikipedia.org/wiki/Murree"><button class="btn"> check out!</button></a>
+                </div>
+            </div>
+
+            <div class="card ">
+                <span class="Discount">-35%</span>
+                <img src="images/card2.jpg" alt="card image">
+                <div class="content">
+                    <h4 class="tittle">Mamazar-e-Quaid</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, expedita esse earum quibusdam facere dicta repellat corrupti quas corporis nihil.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="https://en.wikipedia.org/wiki/Mazar-e-Quaid"><button class="btn"> check out!</button></a>
+                </div>
+            </div>
+
+            <div class="card  ">
+                <span class="Discount">-35%</span>
+                <img src="images/card3.jpg" alt="card image">
+                <div class="content">
+                    <h4 class="tittle">Minar-e-Pakistan</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, expedita esse earum quibusdam facere dicta repellat corrupti quas corporis nihil.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="https://en.wikipedia.org/wiki/Minar-e-Pakistan"><button class="btn"> check out!</button></a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <section  class="about">
+        <h2 class="heading" id="h4"> <span>A</span>bout <span>U</span>s</h2>
+        <div class="row">
+            <div class="col-md-6 image">
+                <img src="images/Travel-5.jpg" alt="" srcset="">
+            </div>
+            <div class="col-md-6 container-fluid content">
+                <h3 id="h3">why choose us?</h3>
+                <p id="p-about">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati laborum, neque dicta asperiores reprehenderit omnis praesentium ratione vel quos magni? Ratione, veniam. Nesciunt ad fuga cum. Tempore consequatur maxime tenetur, error aperiam, a molestias in porro vitae aliquam provident mollitia! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas mollitia illo commodi, magnam ad minus rerum ab nis Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, eligendi? Lorem ipsum dolor sit amet. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. </p><br>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, necessitatibus!
+                </p> -->
+                <a href=""><button class="btn btn1">Read More</button></a>
+                <a href=""><button class="btn btn2">Get Start</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="gellery" >
+        <h2 class="heading" id="h5"> <span>G</span>ellery </h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/gallery1.jpg" alt="gellery1" >
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-search"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/gallery2.jpg" alt="gellery2" >
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-search"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/gallery3.jpg" alt="gellery3" >
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-search"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/gallery4.jpg" alt="gellery4" >
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-search"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/gallery5.jpg" alt="gellery5" >
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-search"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/gallery6.jpg" alt="gellery6" >
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-search"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2 class="heading" id="map"> <span>C</span>ontact </h2>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4909.064998702324!2d67.0377036019985!3d24.87454130266092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e5e736977c1%3A0x70ed36c8a6891d3a!2sMazar-e-Quaid%2C%20Jinnah&#39;s%20Mausoleum!5e0!3m2!1sen!2s!4v1654107754051!5m2!1sen!2s" width="100%" height="400" style="border:0; outline: none;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <div class="row container-fluid">
+            <div class="contact-info col-md-6 container-fluid">
+                <div class="box">
+                    <h4><i class="fas fa-home"></i> Address</h4>
+                    <p>Karachi, <br>
+                    National Park <br>
+                450010.</p>
+                </div>
+
+                <div class="box">
+                    <h4><i class="fas fa-envelope"></i> E-mail</h4>
+                    <p> <a href="mailto:mk6093931@gmail.com ">mk6093931@gmail.com</a>  </p>
+                </div>
+
+                <div class="box">
+                    <h4><i class="fas fa-phone"></i> Phone</h4>
+                   <p> <a href="tel:+92 35856525-6">+92 35856525-6</a> </p>
+                </div>
+            </div>
+            <div class="contact-form-container col-md-6">
+                <form action="">
+                    <h4>get in touch</h4>
+                    <div class="inputbox">
+                        <input type="text" placeholder="enter your full name">
+                        <input type="email" placeholder="email">
+
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="masseges"></textarea>
+                    <input type="submit" value="massege">
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+ <section >
+    <footer>
+        <div class="container-footer " >
+            <div class="row-footer " >
+                <div class="footer-col">
+                    <h4>ABOUT US</h4>
+                    <ul>
+                      <li><p style="color: white; line-height: 25px; font-size: 15px;">Hey there guys We are Web Developer and we will give free Websites Codes.. We will give you guys free website stuff like Navbars, Footers, Gallery etc...</p></li>
+                    </ul>
+                </div>
+      
+      <div class="footer-col" id="quick">
+      <h4 >Quick Links</h4>
+                    <ul>
+      <li><a href="">About us </a></li>
+      <li><a href="">service</a></li>
+      <li><a href="">Testimonials</a></li>
+      <li><a href="">Contact us </a></li>
+         </ul>
+                </div>
+                <div class="footer-col" id="follow">
+                    <h4>Follow Us</h4>
+                    <div class="icon" >
+                      <a href='#' ><i class="fa-brands fa-facebook-f"></i></a>
+                      <a href='#'><i class="fa-brands fa-twitter"></i></a>
+                      <a href='#'><i class="fa-brands fa-instagram"></i></a>
+                      <a href='#'><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                 
+                  </div>
+      
+                 
+                  
+                </div>
+              </div>
+            </footer>
+ </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+    <section class="footer">
+        <h2 class="credit"> Created by <span>Mr.Web Designer</span> | all right reserved </h2>
+
+        <div class="icons">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-github"></a>
+           
+        </div>
+
+    </section> -->
+
+
+   
+
+
+
+
+
+   
+
+
+
+
+
+
+
+    <script>
+        $(document).ready(function () {
+
+            $('.fa-bars').click(function () {
+                $(this).toggleClass('fa-times');
+                $('.navbar').toggleClass('nav-toggle');
+            });
+
+            $(window).on('load scroll',function(){
+            $('.fa-bars').removeClass('fa-times');
+                $('.navbar').removeClass('nav-toggle');
+
+            if($(window).scrollTop() > 30){
+                $('header').addClass('header-active')
+            }else{
+                $('header').removeClass('header-active')
+            }
+
+            $('section').each(function(){
+                var id = $(this).attr('id');
+                var height = $(this).height()
+                var offset = $(this).offset().top - 200;
+                var top = $(window).scrollTop()
+                if(top >= offset && top < offset + height){
+                    $('.navbar ul li a').removeClass('active');
+                    $('.navbar').find('[data-scroll="' + id + '"]').addClass('active')
+                }          
+            })
+
+        });
+
+
+        })
+    </script>
+</body>
+
+</html>
